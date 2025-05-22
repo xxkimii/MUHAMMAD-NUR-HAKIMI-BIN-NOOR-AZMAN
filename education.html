@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Education</title>
+  <style>
+    @font-face {
+      font-family: 'Flamboyan';
+      src: url('fonts/Flamboyan.ttf') format('truetype');
+    }
+
+    body {
+      background:  url('B6.png') no-repeat center center fixed;
+      background-size: cover;;
+      color: white;
+      font-family: 'Flamboyan', serif;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      margin-bottom: 60px;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .image-pair {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .image-pair img {
+      width: 90%;
+      max-width: 300px;
+      border-radius: 15px;
+      filter: grayscale(10%);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 15px;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 50px;
+      padding: 12px 30px;
+      background-color: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #cccccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Education</h1>
+
+  <!-- Primary School Section -->
+  <div class="section">
+    <h2>Primary School</h2>
+    <div class="image-pair">
+      <img src="Sktc.jpg" alt="Primary School Photo 1">
+      <img src="Sktc1.jpg" alt="Primary School Photo 2">
+    </div>
+    <p>I began my studies at Sekolah Kebangsaan Taman Cuepacs, where I developed my curiosity and love for learning. That picture was taken by my mother when i was standard 1.Look at my face, looks very excited to meet new friends at school.</p>
+  </div>
+
+  <!-- High School Section -->
+  <div class="section">
+    <h2>High School</h2>
+    <div class="image-pair">
+      <img src="Saas1.jpeg" alt="High School Photo 1">
+      <img src="Saas2.jpg" alt="High School Photo 2">
+    </div>
+    <p>At SMK Sultan Abdul Aziz Shah, I explored new subjects and discovered my strengths.</p>
+  </div>
+
+  <!-- University Section -->
+  <div class="section">
+    <h2>University</h2>
+    <div class="image-pair">
+      <img src="uitm1.jpg" alt="University Photo 1">
+      <img src="uitm2.jpg" alt="University Photo 2">
+    </div>
+    <p>Now, I'm pursuing my Diploma in Information Management at Universiti Teknologi Mara, Kedah branch and i expanding my knowledge and experiences.In UITM i also meet new friends from other  states and i also learn to become more independent. This is the first time I've been away from my family for 2 and a half years. </p>
+  </div>
+
+  <!-- Back Button -->
+  <a href="index.html" class="back-button">← Back to Home</a>
+
+</body>
+</html>
+
